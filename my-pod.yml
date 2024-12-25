@@ -1,0 +1,10 @@
+kind: Pod
+apiVersion: v1
+metadata:
+    name: myfirstpod
+spec:
+    containers:
+    -image: ganesh2152/myimage
+     name: myfirstcontainer
+     ports: 
+     -containerPort: 8501
