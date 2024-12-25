@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.write(AVD2)
+st.write(AVD3)
 data = {
     'Course Name':['DevOps','Hadoop','PySpark'],
     'Duration':['30 days','20 days','30 days']
